@@ -76,3 +76,10 @@ total 6.6M
 
 * This tutorial instruction is adapted from a previous version made by [Gregory Ditzler](https://github.com/gditzler/bio-course-materials/tree/master/proteus-demo). 
  
+# Supplementary commands:
+1. For taxanomic analysis, download Greengenes file from 2018.8 so that the file can be used by Qiime2-2018 installed on Proteus.
+```
+wget \
+  -O "gg-13-8-99-515-806-nb-classifier.qza" \
+  "https://data.qiime2.org/2018.8/common/gg-13-8-99-515-806-nb-classifier.qza"
+```
